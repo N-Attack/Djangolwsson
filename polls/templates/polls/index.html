@@ -1,7 +1,7 @@
 {% if comments %}
     <ul>
     {% for comment in comments %}
-        <li>{{ comment }}</li>
+        <li>{{ item.question_text }}</li>
     {% endfor %}
     </ul>
 {% else %}
