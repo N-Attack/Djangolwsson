@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'django_lesson.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd5che2mbipb1vo',
+        'USER': 'dskzdudikfobnn',
+        'PASSWORD': '742ac1dbd0e8333b06a22c37776f7edc0dd65090115a0c0d34a3f7f7e6d96512',
+        'HOST': 'ec2-54-217-225-16.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
@@ -124,3 +128,17 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 django_heroku.settings(locals())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
